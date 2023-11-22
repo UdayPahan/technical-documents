@@ -56,7 +56,7 @@ main section code{
     margin:7px 0 7px 0;
     text-align:left;
 }
-
+/*
 @media (min-width:970px){
     nav{
         font-size:29px;
@@ -72,7 +72,7 @@ main section code{
     }
 }
 
-@media (orientation: landscape) and (max-width:790px{
+@media (orientation: landscape) and (max-width:790px){
     nav{
      overflow:scroll;
     }
@@ -93,3 +93,62 @@ main section code{
         left:300px;
     }
 }
+*/
+section,div{
+    border:1px solid red;
+}
+
+section{
+    box-sizing:border-box;
+    padding:15px;
+}
+
+.container{
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+    padding-left:0.5rem;
+    padding-right:0.5rem;
+
+}
+
+@media (min-width: 475px){
+    .container{
+        max-width:475px;
+    }
+   .container-nav{
+    width:20px;
+    overflow:scroll;
+   }
+}
+
+@media (min-width: 640px){
+    .container{
+        max-width:640px;
+    }
+}
+
+@media (min-widht: 768px){
+    .container{
+        max-width:768px;
+    }
+}
+
+@media (min-widht: 1024px){
+    .container{
+        max-width:1024px;
+    }
+}
+
+@media (min-width: 1280px){
+    .container{
+        max-width:1280px;
+    }
+}
+
+@media (min-width: 1536px){
+    .container{
+        max-width:1536px;
+    }
+}
+
